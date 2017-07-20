@@ -5,8 +5,8 @@ pipeline {
             steps { 
                 sh '''
                 	echo "hello world!"
-                  ls -alh
-                  cat data.txt
+                    ls -alh
+                    cat data.txt
                 '''
             }
         }
